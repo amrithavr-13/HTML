@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW3</title>
+</head>
+<body>
+    <h1>Contact Us </h1>
+    <h2><b><i>Malgam </i>private boat services</h2>
+    <p>If you have any questions, feedback, or inquiries, please feel free to reach out to us. We value your input and look forward to hearing from you!</p>
+    <form action="/action_page.php">
+        <label for="sname">Full name:</label><br>
+        <input type="text" id="sname" name="sname" required><br>
+        <label for="email">e-mail ID:</label><br>
+        <input type="text" id="email" name="email" placeholder="novom@gmail.com"><br>
+        <label for="phone">Enter Your Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[+91-aaaaaaaaaa]{13}" required><br>
+        <label for="subject">Enter Subject(&lt;15 words):</label><br>
+        <input type="text" id="subject" name="subject" maxlength="15" size="15"><br>
+        <label for="message">Enter your message(&lt;50 words):</label><br>
+        <input type="text" id="message" name="message" maxlength="50" size="20"><br>
+        <input type="submit" value="Submit">
+    </form>
+        
+</body>
+</html>
