@@ -1,17 +1,34 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<style>
+.box1 {
+  border: 30px solid rgb(198, 30, 30);
+  margin: 20px;
+}
+.box2 {
+  border: 30px solid rgb(202, 91, 110);
+}
+.box3 {
+  background-color: lightgrey;
+  border: 15px solid rgb(152, 35, 35);
+  padding: 50px;
+}
+</style>
 </head>
 <body>
-    <h1 style="color:rgb(100, 4, 4);text-align: center; background-color: rgb(219, 95, 95);">TOTEM CASHEWS</h1>
-    <h2 style="color:rgb(235, 105, 18);text-align: center;">Price: starting from Rs.450</h2>
-    <p style="text-align: center ;background-color: bisque;"><span style="color:#ed8c0e">Totem Cashews</span> brings you the perfect crunch in every bite!Made from carefully selected, premium cashews, each pack is roasted to perfection to lock in rich taste and freshness. Whether you’re snacking on the go, sharing with family, or adding a touch of luxury to your moments, <span style="color:#ed8c0e">Totem Cashews </span>turns simple snacking into pure delight.Our cashews are carefully selected to ensure the best quality.
-Each batch is hygienically packed to preserve freshness and crunch.
-We follow strict standards at every step of processing.
-Only premium-grade cashews make it into our packs.
-With Totem Cashews, you get taste you can trust every time.</p>
+
+<h2>Demonstrating the Box Model</h2>
+
+<p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: borders, padding, margins, and the actual content.</p>
+
+<div class="box1">
+    <div class="box2">
+        <div class="box3">
+            This text is the content of the innermost box. We have added a 15px green border, 60px padding and 20px margin to the outer boxes.This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+         </div>
+    </div>
+</div>
 </body>
 </html>
